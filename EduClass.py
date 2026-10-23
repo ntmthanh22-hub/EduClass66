@@ -195,13 +195,7 @@ def render_html_table(df: pd.DataFrame):
         + '</div>',
         unsafe_allow_html=True,
     )
-    st.caption(
-        f"Hiển thị {len(df)} dòng · Cuộn để xem các dòng khác · "
-        "Có thể sửa text bằng F12 → Elements → Edit text "
-        "(chỉ thay đổi trên trình duyệt, mất khi tải lại trang)."
-    )
-
-
+   
 # ==========================================
 # 2. CÔNG THỨC TÍNH ĐTBMÔN CHUẨN BỘ GD&ĐT
 # ==========================================
